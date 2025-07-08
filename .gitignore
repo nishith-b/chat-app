@@ -1,0 +1,36 @@
+# Node modules (anywhere)
+**/node_modules/
+
+# Build folders (TypeScript, Webpack, etc.)
+**/dist/
+**/build/
+
+# Environment variables
+**/.env
+
+# Logs
+**/logs/
+*.log
+
+# Dependency lock files (optional: if you use only one package-lock.json)
+# You can remove this if you want to keep package-lock.json in version control
+# **/package-lock.json
+# **/yarn.lock
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# VS Code settings
+.vscode/
+
+# Coverage / test output
+**/coverage/
+coverage/
+
+# Frontend build (optional)
+**/public/build/
+**/.next/
+**/.turbo/
+**/.parcel-cache/
