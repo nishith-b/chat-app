@@ -21,8 +21,9 @@ redisClient
   .catch((error) => console.log("Error Occured", error));
 
 const app = express();
+app.use(express.json());
 
-app.use("api/v1", userRoutes);
+app.use("/api/v1", userRoutes);
 
 const port = process.env.PORT;
 
